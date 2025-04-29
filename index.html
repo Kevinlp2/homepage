@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TechBlog - 未来科技博客</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    欢迎来到
+<nav class="navbar">
+    <div class="nav-links">
+        <a href="#home" class="active">首页</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+    </div>
+</nav>
+
+<section class="hero" id="home">
+    <div class="gradient-circle" style="top: -200px; left: -200px;"></div>
+    <div class="gradient-circle" style="bottom: -200px; right: -200px;"></div>
+    <div class="hero-content">
+        <h1>探索未来科技</h1>
+        <p>前沿技术 | 创新思维 | 数字未来</p>
+    </div>
+</section>
+
+<section class="articles-container" id="articles">
+    <article class="article-card">
+        <h3>人工智能的未来发展</h3>
+        <p>探讨机器学习技术的最新进展和应用前景...</p>
+        <div class="read-more">阅读更多 →</div>
+    </article>
+    <article class="article-card">
+        <h3>Web3.0技术解析</h3>
+        <p>区块链与去中心化应用的革命性变革...</p>
+        <div class="read-more">阅读更多 →</div>
+    </article>
+</section>
+
+<!--<div class="theme-switch">-->
+<!--    <i class="fas fa-moon"></i>-->
+<!--</div>-->
+
+<script src="js/main.js"></script>
 </body>
 </html>
